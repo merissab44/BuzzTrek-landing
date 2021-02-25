@@ -1,0 +1,19 @@
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: .5rem;
+    margin-left: 15rem;
+}
+nav{
+    background: goldenrod;
+}
+.founder-img img{
+        width: 210px;
+        height: 210px;
+        max-width: 250px;
+        max-height: 250px;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,0.5);
+    }
+.founder-bio{
+    text-align: center;
+}

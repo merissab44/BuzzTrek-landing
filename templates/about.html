@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    About Page
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="../static/styles/about.css">
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="founder-img">
+                <img src="../static/styles/images/Salinas-Abel.JPEG" class="mx-auto d-block" alt="Abel Salinas Photo">
+            </div>
+            <div class="founder-bio">
+                <h3>Co-founder/CEO</h3>
+                <h6>USC</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="founder-img">
+                <img src="../static/styles/images/Brid_Merissa.jpeg" class="mx-auto d-block" alt="Merissa Bridgeman Photo">
+            </div>
+            <div class="founder-bio">
+                <h3>Co-founder/COO</h3>
+                <h6>Make School</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="founder-img">
+                <img src="../static/styles/images/Wilkins_rod.jpeg" class="mx-auto d-block" alt="Roderick Wilkins Photo">
+            </div>
+            <div class="founder-bio">
+                <h3>Co-founder/ UX/UI design lead</h3>
+                <h6>LSU</h6>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

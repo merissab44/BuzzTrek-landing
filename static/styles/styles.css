@@ -1,0 +1,88 @@
+.hexagon {
+  width: 600px;
+  height: 250px;
+  background: red;
+  transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  border: 1px solid black;
+}
+
+.hexagon-inside {
+  width: 100%;
+  height: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: hidden;
+  border: 1px solid black;
+}
+
+.hexagon-image {
+  width: 100%;
+  height: 100%;
+  background: gold;
+  background-position: center;
+  transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  visibility: visible;
+  border: 1px solid black;
+}
+.jumbotron {
+  background: linear-gradient(to bottom, #ffff66 0%, #ff6600 100%);
+  height: 590px;
+  color: white;
+  text-align: center;
+}
+.jumbotron h1 {
+  color: black;
+  font-size: 6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+}
+.jumbotron p {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3rem 5rem 0 5rem;
+}
+.jumbotron svg {
+  display: block;
+  margin: 0;
+}
+.container {
+  margin: 0;
+}
+.nav-link {
+  color: black;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 60%;
+}
+.navbar {
+  padding: 0;
+}
+footer {
+  height: 400px;
+  background-color: gold;
+}
+.action {
+  height: 400px;
+  background-color: gold;
+}

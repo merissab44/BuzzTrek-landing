@@ -1,0 +1,81 @@
+{% extends 'base.html'%}
+
+            <head>
+                {% block title%}
+                    Landing page
+                {% endblock%}
+            </head>
+            {% block styles %}
+                <link rel="stylesheet" href="../static/styles/styles.css">
+            {% endblock %}
+
+        {% block content%}
+        <div class="jumbotron">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">BuzzTrek</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="nav-ul">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam perspiciatis ut fugiat laudantium libero dolores animi aut porro eos amet, necessitatibus harum molestias, expedita, id exercitationem quis quod debitis pariatur.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime aspernatur mollitia unde magni molestiae distinctio ab, neque sapiente! Autem, magni? Mollitia id veniam numquam tempora deleniti harum, libero ratione?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1" d="M0,192L60,202.7C120,213,240,235,360,250.7C480,267,600,277,720,245.3C840,213,960,139,1080,96C1200,53,1320,43,1380,37.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="hexagon">
+                        <div class="hexagon-inside">
+                            <div class="hexagon-image"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hexagon">
+                        <div class="hexagon-inside">
+                            <div class="hexagon-image"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hexagon">
+                        <div class="hexagon-inside">
+                            <div class="hexagon-image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="action text-center">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+            </form>
+        </footer>
+        {% endblock %}
+    </body>
+</html>
